@@ -14,7 +14,7 @@ def printHTMLHeader(title=""):
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>%sTable Football Ladder (v2 beta)</title>
-  <script src="js/sorttable.js" type="script/javascript"></script>
+  <script src="js/sorttable.js" type="text/javascript"></script>
   <link rel="stylesheet" type="text/css" href="football.css" />
 </head>
                                                          
@@ -25,7 +25,7 @@ def printHTMLFooter():
   print """
   <hr/>
   <!-- I bloody hate CSS why is this so hard? -->
-  <table class="structural" width="100%"><tr><td align="left">&copy;2007 <a href="mailto:aks@corefiling.co.uk">Andrew Shirley</a></td><td id="devLink">Try the development branch at <a href="http://www.int.corefiling.com/~aks/football-dev/football.cgi">http://www.int.corefiling.com/~aks/football-dev/football.cgi</a></td></tr></table>
+  <table class="structural" width="100%"><tr><td align="left">&copy;2007 <a href="mailto:aks@corefiling.co.uk">Andrew Shirley</a></td><td id="devLink"><p>Try the development branch at <a href="http://www.int.corefiling.com/~aks/football-dev/football.cgi">http://www.int.corefiling.com/~aks/football-dev/football.cgi</a></p><p>or contribute at <a href="https://github.com/ashirley/football">https://github.com/ashirley/football</a></p></td></tr></table>
   <hr/>
   </body>
 </html>
